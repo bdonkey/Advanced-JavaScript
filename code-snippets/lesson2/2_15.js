@@ -3,7 +3,7 @@ const myPromise = new Promise( ( resolve, reject ) => {
   resolve( 'Promise was resolved!' );
 } );
 
-myPromse.finally( value => {
+myPromise.finally( value => {
   console.log( 'Finally!' );
 } );
 

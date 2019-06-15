@@ -4,6 +4,7 @@ const myPromise = new Promise( ( resolve, reject ) => {
   reject( new Error ( 'Promise was rejected!' ) );
 } );
 
-myPromse.then( () => {}, error => console.log( error) );
+// note first arguement to then is empty result function
+myPromise.then( () => {}, error => console.log( error) );
 // Expected output: Error: Promise was rejected!
 // ** output stack trace omitted

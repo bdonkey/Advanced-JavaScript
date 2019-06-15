@@ -1,0 +1,23 @@
+{
+  "name": "Advanced-JavaScript",
+  "version": "1.0.0",
+  "dependencies": {
+    
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "1_83": "node 1_83.js",
+    "2_2": "node code-snippets/lesson2/2_2.js",
+    "2_13": "node code-snippets/lesson2/2_13.js",
+    "2_14": "node code-snippets/lesson2/2_14.js",
+    "2_16": "node code-snippets/lesson2/2_16.js",
+    "2_19": "node code-snippets/lesson2/2_19.js",
+    "2_20": "node code-snippets/lesson2/2_20.js",
+    "2_24": "node code-snippets/lesson2/2_24.js",
+    "ss1": "node code-snippets/ss/ss1.js",
+    "ss2": "node code-snippets/ss/ss2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -3,5 +3,5 @@ setTimeout( () => {
   // Try with smaller numbers first
   for( let i = 0; i < 2000000000; i++ ) {}
   console.log( 'done delaying' );
-}, 0 );
+}, 10 );
 setTimeout( () => { console.log( 'done!' ) }, 0 );

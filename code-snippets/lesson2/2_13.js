@@ -4,5 +4,5 @@ const myPromise = new Promise( ( resolve, reject ) => {
   resolve( 'Promise was resolved!' );
 } );
 
-myPromse.then( value => console.log( value ) );
+myPromise.then( value => console.log( value ) );
 // Expected output: 'Promise was resolved'
