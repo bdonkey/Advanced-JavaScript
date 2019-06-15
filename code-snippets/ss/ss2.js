@@ -30,6 +30,7 @@ msg(); // Lucky!!
 
 /* also has example code for fetch */
 
+const fetch = require('node-fetch');
 async function fetchUsers(endpoint) {
   const res = await fetch(endpoint);
   let data = await res.json();
